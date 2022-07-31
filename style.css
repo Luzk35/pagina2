@@ -44,16 +44,19 @@ button:hover{
 .color-acento{ color:blueviolet; }
 
 header{
+  
     background-color: rgb(245,245,245);
-    
+    border: 2px solid #ccc; 
+   
+ 
 }
 
 header .logo{
     margin: 0;
-    padding: 25px 30px;
+    padding: 20px 30px;
     font-weight: bold;
     color: blueviolet;
-    font-size: 1.6em;
+    font-size: 28px;
 }
 
 header .container{
@@ -76,12 +79,18 @@ header a{
     padding: 5px 12px;
     text-decoration: none !important;
     font-weight: bold;
+    font-size:29px;
     color: black;
 }
 
 header a:hover{
     color: blueviolet;
 }
+
+.avatar{
+  border-radius:50%
+}
+
 
 #hero{
     display: flex;
