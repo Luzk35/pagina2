@@ -126,32 +126,32 @@ header a:hover{
 }
 
 
-#somos-proya .container{
+#about-me .container{
     text-align: center;
     padding: 100px 12px; /* por que no cambia el tamañp*/
     /*font-size: 7.0px;*/
 }
 
-#nuestros-programas{
+#mis-proy{
     background-color: rgb(50, 0, 51);
     color: white;
     text-align: center;
 }
 
-#nuestros-programas .container{
+#mis-proy .container{
     padding: 150px 12px;
 }
 
-#nuestros-programas h2{
+#mis-proy h2{
     margin-top: 0;
     font-size: 3.2em;
 }
 
-#nuestros-programas p{
+#mis-proy p{
     display: none;
 }
 
-#nuestros-programas .carta{
+#mis-proy .carta{
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
@@ -165,7 +165,9 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/ni1.png");
+    ,url("media/mision.png");
+   
+  
     
 
 }
@@ -176,7 +178,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/manito.png");
+    ,url("media/2.png");
 }
 
 .carta:nth-child(3){
@@ -185,16 +187,16 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/ni2.png");
+    ,url("media/serp.png");
 
 }
 
-#caracteristicas .container{
+#seccion-tres .container{
     text-align: center;
     padding: 250px 12px;
 }
 
-#caracteristicas li{
+#seccion-tres li{
     margin: 16px 0px;
     font-weight: bold;
 }
@@ -257,12 +259,12 @@ footer .container{
         font-size: 5em;
     }
 
-    #somos-proya .container{
+    #about-me .container{
         display: flex;
         justify-content: space-evenly;
     }
 
-    #somos-proya .texto{
+    #about-me .texto{
         width: 50%;
         max-width: 600px;
         text-align: initial;
@@ -272,11 +274,11 @@ footer .container{
         justify-content: center;
     }
 
-    #somos-proya h2{
+    #about-me h2{
         margin-top: 0px;
     }
 
-    #somos-proya .img-container{
+    #about-me .img-container{
         background-image: url("media/logo.jpeg");
         background-size: cover;
         background-position: center center;
@@ -284,25 +286,25 @@ footer .container{
         width: 400px; 
     }
 
-    #nuestros-programas .programas{
+    #mis-proy .enfoque{
         display: flex;
         justify-content: center;
     }
 
-    #nuestros-programas p{
+    #mis-proy p{
         display: block;
         margin-bottom: 30px;
     }
 
-    #nuestros-programas h2{
+    #mis-proy h2{
         font-size: 4em;
     }
 
-    #nuestros-programas h3{
+    #mis-proy h3{
         margin-top: 0;
     }
 
-    #nuestros-programas .carta{
+    #mis-proy .carta{
         padding: 50px;
         background-size: 100% 150px;
         background-repeat: no-repeat;
@@ -340,18 +342,18 @@ footer .container{
 
     }
 
-    #caracteristicas{
+    #seccion-tres{
         background-image: url("media/background-2.jpeg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
     }
 
-    #caracteristicas .container{
+    #seccion-tres .container{
         text-align: initial;
     }
 
-    #caracteristicas ul{
+    #seccion-tres ul{
         margin-left: 100px;
     }
 
@@ -369,7 +371,7 @@ footer .container{
 }
 
 @media (min-width: 1200px) {
-    #caracteristicas{
+    #seccion-tres{
         background-position-x: calc(100vw - 800px);
     }
 }
