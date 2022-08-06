@@ -29,11 +29,11 @@ button{
     border: 2px solid rgba(0,0,0,0.3);
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     color: white;
-    background-color: blueviolet;
+    background-color: #cb01a6;
 }
 
 button:hover{
-    background-color: rgb(101, 33, 165);
+    background-color: #f9b701;
 }
 
 .container{
@@ -41,12 +41,12 @@ button:hover{
     margin: auto;
 }
 
-.color-acento{ color:blueviolet; }
+.color-acento{ color:#990070; }
 
 header{
   
-    background-color: rgb(245,245,245);
-    border: 2px solid #ccc; 
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #490337; 
    
  
 }
@@ -55,7 +55,7 @@ header .logo{
     margin: 0;
     padding: 20px 30px;
     font-weight: bold;
-    color: blueviolet;
+    color: #f9b701;
     font-size: 28px;
  
 }
@@ -85,11 +85,11 @@ header a{
     text-decoration: none !important;
     font-weight: bold;
     font-size:29px;
-    color: black;
+    color: #f9b701;
 }
 
 header a:hover{
-    color: blueviolet;
+    color: #920256;
 }
 
 .avatar{
@@ -115,7 +115,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/hero.jpg");
+    ,url("media/luzka1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -125,17 +125,15 @@ header a:hover{
     color: white;
 }
 
-#hero button{
-    font-size: 1.75em;
-}
 
 #somos-proya .container{
     text-align: center;
-    padding: 200px 12px;
+    padding: 100px 12px; /* por que no cambia el tamañp*/
+    /*font-size: 7.0px;*/
 }
 
 #nuestros-programas{
-    background-color: rgb(30,30,30);
+    background-color: rgb(50, 0, 51);
     color: white;
     text-align: center;
 }
@@ -167,7 +165,8 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/front-end.jpg");
+    ,url("media/ni1.png");
+    
 
 }
 
@@ -177,7 +176,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/full-stack.jpg");
+    ,url("media/manito.png");
 }
 
 .carta:nth-child(3){
@@ -186,7 +185,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/python.jpg");
+    ,url("media/ni2.png");
 
 }
 
@@ -227,6 +226,7 @@ footer p{
     margin: 0;
     padding: 12px;
     color: rgb(100,100,100);
+    
 }
 
 footer .container{
@@ -277,7 +277,7 @@ footer .container{
     }
 
     #somos-proya .img-container{
-        background-image: url("media/somos-proya.jpg");
+        background-image: url("media/logo.jpeg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -364,7 +364,7 @@ footer .container{
     }
 
     footer .container{
-        justify-content: flex-end;
+        justify-content: center;
     }
 }
 
